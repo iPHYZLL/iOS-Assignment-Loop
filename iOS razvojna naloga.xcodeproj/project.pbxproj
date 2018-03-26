@@ -8,20 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		BC4466692069252D00E6D5E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4466682069252D00E6D5E5 /* AppDelegate.swift */; };
-		BC44666B2069252D00E6D5E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC44666A2069252D00E6D5E5 /* ViewController.swift */; };
-		BC44666E2069252D00E6D5E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC44666C2069252D00E6D5E5 /* Main.storyboard */; };
 		BC4466702069252F00E6D5E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC44666F2069252F00E6D5E5 /* Assets.xcassets */; };
 		BC4466732069252F00E6D5E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC4466712069252F00E6D5E5 /* LaunchScreen.storyboard */; };
+		BC44667C206925C700E6D5E5 /* MatchesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC44667B206925C700E6D5E5 /* MatchesVC.swift */; };
+		BCD426442069281300697743 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD426432069281200697743 /* UIView+Extension.swift */; };
+		BCD4264720692B8900697743 /* Tekma.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD4264620692B8900697743 /* Tekma.swift */; };
+		BCD4264B20692C4200697743 /* ListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD4264A20692C4200697743 /* ListCell.swift */; };
+		BCD4264D2069315900697743 /* AddMatchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD4264C2069315900697743 /* AddMatchVC.swift */; };
+		BCD4264F206935B400697743 /* MatchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD4264E206935B400697743 /* MatchCell.swift */; };
+		BCD4265120696AC200697743 /* MatchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD4265020696AC200697743 /* MatchVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BC4466652069252D00E6D5E5 /* iOS razvojna naloga.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS razvojna naloga.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC4466682069252D00E6D5E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BC44666A2069252D00E6D5E5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BC44666D2069252D00E6D5E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BC44666F2069252F00E6D5E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC4466722069252F00E6D5E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC4466742069252F00E6D5E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC44667B206925C700E6D5E5 /* MatchesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchesVC.swift; sourceTree = "<group>"; };
+		BCD426432069281200697743 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		BCD4264620692B8900697743 /* Tekma.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tekma.swift; sourceTree = "<group>"; };
+		BCD4264A20692C4200697743 /* ListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCell.swift; sourceTree = "<group>"; };
+		BCD4264C2069315900697743 /* AddMatchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMatchVC.swift; sourceTree = "<group>"; };
+		BCD4264E206935B400697743 /* MatchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchCell.swift; sourceTree = "<group>"; };
+		BCD4265020696AC200697743 /* MatchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +64,51 @@
 		BC4466672069252D00E6D5E5 /* iOS razvojna naloga */ = {
 			isa = PBXGroup;
 			children = (
+				BCD4264820692C1A00697743 /* View */,
+				BCD4264520692B7800697743 /* Model */,
+				BCD426422069281200697743 /* Extensions */,
+				BC44667A206925AF00E6D5E5 /* Controller */,
 				BC4466682069252D00E6D5E5 /* AppDelegate.swift */,
-				BC44666A2069252D00E6D5E5 /* ViewController.swift */,
-				BC44666C2069252D00E6D5E5 /* Main.storyboard */,
 				BC44666F2069252F00E6D5E5 /* Assets.xcassets */,
 				BC4466712069252F00E6D5E5 /* LaunchScreen.storyboard */,
 				BC4466742069252F00E6D5E5 /* Info.plist */,
 			);
 			path = "iOS razvojna naloga";
+			sourceTree = "<group>";
+		};
+		BC44667A206925AF00E6D5E5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BC44667B206925C700E6D5E5 /* MatchesVC.swift */,
+				BCD4264C2069315900697743 /* AddMatchVC.swift */,
+				BCD4265020696AC200697743 /* MatchVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BCD426422069281200697743 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BCD426432069281200697743 /* UIView+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		BCD4264520692B7800697743 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BCD4264620692B8900697743 /* Tekma.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BCD4264820692C1A00697743 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BCD4264A20692C4200697743 /* ListCell.swift */,
+				BCD4264E206935B400697743 /* MatchCell.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,7 +171,6 @@
 			files = (
 				BC4466732069252F00E6D5E5 /* LaunchScreen.storyboard in Resources */,
 				BC4466702069252F00E6D5E5 /* Assets.xcassets in Resources */,
-				BC44666E2069252D00E6D5E5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,22 +181,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC44666B2069252D00E6D5E5 /* ViewController.swift in Sources */,
+				BCD4264720692B8900697743 /* Tekma.swift in Sources */,
+				BCD426442069281300697743 /* UIView+Extension.swift in Sources */,
+				BCD4264D2069315900697743 /* AddMatchVC.swift in Sources */,
 				BC4466692069252D00E6D5E5 /* AppDelegate.swift in Sources */,
+				BCD4264F206935B400697743 /* MatchCell.swift in Sources */,
+				BCD4264B20692C4200697743 /* ListCell.swift in Sources */,
+				BC44667C206925C700E6D5E5 /* MatchesVC.swift in Sources */,
+				BCD4265120696AC200697743 /* MatchVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		BC44666C2069252D00E6D5E5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BC44666D2069252D00E6D5E5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BC4466712069252F00E6D5E5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,6 +326,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 45KWM69QJR;
 				INFOPLIST_FILE = "iOS razvojna naloga/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,6 +345,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 45KWM69QJR;
 				INFOPLIST_FILE = "iOS razvojna naloga/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
