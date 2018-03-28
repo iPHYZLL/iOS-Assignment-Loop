@@ -69,7 +69,9 @@ class AddMatchVC : UITableViewController {
             
             guard let matchCell = cell as? MatchCell else { continue }
             
-            switch tableView.indexPath(for: matchCell)?.row {
+            guard let cellRow = tableView.indexPath(for: matchCell)?.row else { return }
+            
+            switch cellRow {
             case 0 :
                 ekipa1 = matchCell.valueLabel.text ?? ""
             case 1 :
